@@ -3,7 +3,7 @@ namespace zero_project
 {
 	public class LeapYearChecker
 	{
-		public static void Main()
+		public LeapYearChecker()
 		{
 			Console.WriteLine("Enter year: ");
 			int year = Convert.ToInt32(Console.ReadLine());
